@@ -4,6 +4,7 @@ import Container from './components/Container'
 import Banner from './components/Banner'
 import SectionTitle from './components/SectionTitle'
 import Slick from './components/Slick'
+import Frustration from './components/Frustration'
 
 
 
@@ -21,6 +22,8 @@ const App = () => {
       <Container>
         <Slick></Slick>
       </Container>
+
+      <Frustration></Frustration>
 
     </>
   )

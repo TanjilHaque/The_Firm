@@ -47,5 +47,14 @@
     right: 0;
     z-index: -1;
   }
+
+  
+}
+
+.maskClass{
+  position: absolute;
+  bottom: 48px;
+  right: 18px;
+  z-index: -1;
 }
 
