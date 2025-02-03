@@ -57,4 +57,99 @@
   right: 18px;
   z-index: -1;
 }
+.cardBorder{
+  border: 1px solid rgba(250, 203, 16, 0.401);
+  border-radius: 30px;
+}
 
+.childMaskCard-1{
+  bottom: 80px;
+  left: 0;
+}
+
+.childMaskCard-2{
+  bottom: -145px;
+  left: 365px;
+}
+
+.childMaskCard-3{
+  top: 0;
+  left: 35px;
+}
+
+.btnTail{
+  border: 1px solid #f6f6f6;
+  position: relative;
+  transition: 0.3s ease-in-out;
+  box-shadow: 0px 10px 40px rgba(196, 196, 196, 0.35);
+}
+
+.btnTail::before{
+  position: absolute;
+  content: '';
+  top: 25px;
+  left: -20px;
+  width: 20px;
+  height: 2px;
+  background-color: #f6f6f6;
+  transition: 0.3s ease-in-out;
+}
+
+.btnTail::after{
+  position: absolute;
+  content: '';
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background-color: #f6f6f6;
+  bottom: 15px;
+  left: -40px;
+  transition: 0.3s ease-in-out;
+}
+
+.btnTail:hover{
+  background-color: var(--color-yellow-color);
+  color: white;
+}
+
+.btnTail:hover::before{
+  background-color: var(--color-yellow-color);
+  color: white;
+}
+.btnTail:hover::after{
+  background-color: var(--color-yellow-color);
+  color: white;
+}
+
+.customSliderbtn{
+  border-end-end-radius: 50%;
+  border-start-end-radius: 50%;
+  border: 3px solid white;
+  top: 35px;
+  left: 10px;
+  cursor: pointer;
+}
+
+.blogCardContainer{
+  border-radius: 15px;
+  border: 1px solid rgba(250, 203, 16, 0.401);
+}
+
+.getInTouchContainerParent{
+  position: relative;
+}
+
+.getInTouchContainer{
+  position: absolute;
+  top: 130px;
+  left: 270px;
+}
+
+.iconsItem{
+  transition: 0.4s all linear;
+  cursor: pointer;
+
+}
+.iconsItem:hover{
+  color: var(--color-yellow-color);
+}

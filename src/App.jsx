@@ -5,6 +5,13 @@ import Banner from './components/Banner'
 import SectionTitle from './components/SectionTitle'
 import Slick from './components/Slick'
 import Frustration from './components/Frustration'
+import PerfectSolution from './components/PerfectSolution'
+import ChooseUs from './components/ChooseUs'
+import Research from './components/Research'
+import Blogs from './components/Blogs'
+import Testimonial from './components/Testimonial'
+import GetInTouch from './components/GetInTouch'
+import Footer from './components/Footer'
 
 
 
@@ -24,6 +31,15 @@ const App = () => {
       </Container>
 
       <Frustration></Frustration>
+      <PerfectSolution></PerfectSolution>
+      <ChooseUs></ChooseUs>
+      <Research></Research>
+      <Blogs></Blogs>
+      <Testimonial></Testimonial>
+      <section className='flex flex-col justify-center items-center'>
+        <GetInTouch></GetInTouch>
+      </section>
+      <Footer></Footer>
 
     </>
   )
